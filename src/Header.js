@@ -47,9 +47,9 @@ export default function Header() {
                   </div>
                 </div>
                 <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
-                  <Link to="/stats" className="noClass">Stats
+                  <Link to="/stats" className="font-medium text-indigo-600 hover:text-indigo-500">Stats
                   </Link>
-                  <Link to="/market" className="noClass">Marketplace</Link>
+                  <Link to="/market" className="font-medium text-indigo-600 hover:text-indigo-500">Marketplace</Link>
                   {getCookie('login') ? (
                   <>
                     <Link to="/profile" className="font-medium text-indigo-600 hover:text-indigo-500">Profile</Link>
