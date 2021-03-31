@@ -37,6 +37,20 @@
   }
 }
 
+.logo {
+  -webkit-transition: transform 1s ease;
+  -moz-transition: transform 1s ease;
+  -ms-transition: transform 1s ease;
+  -o-transition: transform 1s ease;
+  transition-duration: 2s;
+}
+.logo:hover {
+  transform: translateX(-1px) rotateY(180deg);
+  -ms-transform: translateX( -1px ) rotateY(180deg);
+  -webkit-transform: translateX( -1px ) rotateY(180deg);
+  transition-duration: 1s;
+}
+
 .tos-firstP {
   font-size: 24px;
   line-height: 140%;
